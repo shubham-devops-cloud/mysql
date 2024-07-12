@@ -1,5 +1,6 @@
 @Library('shared-library@main') _
 dbBuild{
-    ecrRepoName = 'reg/mysql'
+    ecrTagName = 'mysql'
+    targetPom = 'pom.xml'
     dockerfile = 'DockerServiceDescription/Dockerfile'
 }
