@@ -2,5 +2,5 @@
 dbBuild{
     ecrTagName = 'mysql'
     targetPom = 'pom.xml'
-    dockerfile = 'DockerServiceDescription/Dockerfile'
+    dockerFile = 'DockerServiceDescription/Dockerfile'
 }
